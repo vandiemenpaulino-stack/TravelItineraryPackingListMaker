@@ -9,10 +9,10 @@ import {
 } from 'react-native';
 
 const categories = [
-  { name: 'Transportation' },
-  { name: 'Accommodation' },
-  { name: 'Food' },
-  { name: 'Activities' },
+  { name: 'Transportation', icon: '🚗' },
+  { name: 'Accommodation', icon: '🏨' },
+  { name: 'Food', icon: '🍽️' },
+  { name: 'Activities', icon: '🎉' },
 ];
 
 export default function Budget() {
